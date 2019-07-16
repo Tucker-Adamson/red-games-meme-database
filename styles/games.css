@@ -228,6 +228,7 @@ a :hover{
       background-position: sticky;
 
       color: rgba(0,0,0,0);
+      margin: -16px;
   }
 
   .elements {
@@ -236,4 +237,14 @@ a :hover{
     background-position: sticky;
 
     color: rgba(0,0,0,0);
+    margin: -16px;
+}
+
+.captain {
+    background-image: url(https://media0.giphy.com/media/2igLt94APh9hm/giphy.gif);
+    background-attachment: fixed;
+    background-position: sticky;
+
+    color: rgba(0,0,0,0);
+    margin: -16px;
 }

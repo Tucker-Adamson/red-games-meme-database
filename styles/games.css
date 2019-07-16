@@ -221,3 +221,11 @@ a :hover{
     background-position: center;
     background-blend-mode: overlay;
   }
+
+  .gnome {
+      background-image: url(https://thumbs.gfycat.com/SaneDisgustingAtlanticridleyturtle-max-1mb.gif);
+      background-attachment: fixed;
+      background-position: sticky;
+
+      color: rgba(0,0,0,0);
+  }

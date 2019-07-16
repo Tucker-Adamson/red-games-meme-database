@@ -229,3 +229,11 @@ a :hover{
 
       color: rgba(0,0,0,0);
   }
+
+  .elements {
+    background-image: url(https://media.giphy.com/media/kILJfO7REdmjvcbukb/giphy.gif);
+    background-attachment: fixed;
+    background-position: sticky;
+
+    color: rgba(0,0,0,0);
+}

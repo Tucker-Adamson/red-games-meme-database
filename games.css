@@ -1,0 +1,231 @@
+@font-face{
+    font-family:"Earwig Factory W05 Regular";
+    src:url("../Fonts/5101340/c12c88c2-802f-415a-8e0b-fbbdabb3c409.eot?#iefix");
+    src:url("../Fonts/5101340/c12c88c2-802f-415a-8e0b-fbbdabb3c409.eot?#iefix") format("eot"),url("Fonts/5101340/5f827727-7953-4497-bde5-c9141bd65de6.woff2") format("woff2"),url("Fonts/5101340/8a372361-f4a5-4cd0-930b-6041dfdf49bc.woff") format("woff"),url("Fonts/5101340/70379558-bc61-437d-9062-3c096c4d6a10.ttf") format("truetype");
+}
+
+body {
+    font-family: "Earwig Factory W05 Regular";
+}
+a {
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+a :visited{
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+a :hover{
+    color: #c4c4c4;
+    text-decoration: none;
+}
+
+a :focus{
+    color: #c4c4c4;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+a :hover{
+    color: #c4c4c4;
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    background-image: url("../images/SPAAAACE.jpg");
+    background-size: cover;
+    background-position: sticky;
+    background-attachment: fixed;
+    padding-top: 33vh;
+    padding-bottom: 33vh;
+    margin: -10px;
+    margin-top: -10px;
+    
+}
+
+.header-text {
+    text-transform: capitalize;
+    margin-top: 15vh;
+    margin-bottom: 33vh;
+    margin-left: 700px;
+    color: red;
+    font-family: "Earwig Factory W05 Regular";
+    font-size: 4em;
+    font-weight: bolder;
+
+    transform: skewX(0deg);
+    transition: ease-in-out 1s;
+}
+
+.navbar {
+    background-color: #4d4d4d;
+    margin-bottom: -17px;
+    margin-top: -17px;
+    margin-left: -10px;
+    margin-right: -10px;
+    height: 50px;
+    vertical-align: center;
+}
+
+
+.navbar ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+    color: #c4c4c4;
+    background-color: #4d4d4d;
+}
+
+.navbar ul li{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: #c4c4c4;
+    cursor: pointer;
+    font-size: 1.4em;
+    margin-top: -10;
+    font-family: "Earwig Factory W05 Regular";
+    margin-bottom: 3px;
+    -webkit-animation: grow 1s infinite;
+}
+
+.navbar ul li :hover {
+    text-decoration: underline;
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+    -webkit-animation: margin 1s infinite;
+}
+
+@-webkit-keyframes rainbow { 
+    0%{
+        left: 0px; 
+        top: 0px; 
+        color:red; 
+        background: 
+            linear-gradient(
+                115deg,
+                #a767e5,
+                #12bcfe,
+                #44ce7b,
+                #4fcf70,
+                #fad648
+                )
+            } 
+    25%{
+        left: 50px;
+        top: 0px;
+        color: yellow; 
+        background: 
+            linear-gradient(
+                115deg,
+                #12bcfe,
+                #44ce7b,
+                #4fcf70,
+                #fad648,
+                #a767e5
+                )
+            } 
+    50%{
+        left: 
+        50px; 
+        top: 50px;
+        color: green; 
+        background: 
+            linear-gradient(
+                115deg,
+                #44ce7b,
+                #4fcf70,
+                #fad648,
+                #a767e5,
+                #12bcfe
+                )
+            } 
+    75%{
+        left: 0px; 
+        top: 50px;
+        color: blue; 
+        background: 
+            linear-gradient(
+                115deg,
+                #4fcf70,
+                #fad648,
+                #a767e5,
+                #12bcfe,
+                #44ce7b
+                )
+            } 
+    100%{
+        left: 0px; 
+        top: 0px; 
+        color: indigo; 
+        background: 
+            linear-gradient(
+                115deg,
+                #fad648,
+                #a767e5,
+                #12bcfe,
+                #44ce7b,
+                #4fcf70
+                )
+            }
+}
+
+@-webkit-keyframes grow {
+    0%{font-size: 1rem}
+    12%{font-size: 1.25rem}
+    25%{font-size: 1.5rem}
+    37%{font-size: 1.75rem}
+    50%{font-size: 2rem}
+    62%{font-size: 1.75rem}
+    75%{font-size: 1.5rem}
+    87%{font-size: 1.25rem}
+    100%{font-size: 1rem}
+}
+
+@-webkit-keyframes margin {
+    0%{margin: 0}
+    20%{margin: 100}
+    40%{margin: 200}
+    60%{margin: 300}
+    80%{margin: 400}
+    100%{margin: 500}
+}
+
+
+.s {
+    transform: scale(1);
+    transition: ease-in-out 1s;
+    -webkit-animation: margin 1s infinite;
+
+    background-image: url("https://media1.tenor.com/images/004fc13cde571f3f9e2ddb8f5f1cc9ef/tenor.gif?itemid=12693690");
+    background-position: sticky;
+    background-attachment: fixed;
+    background-size: 10vw
+}
+
+.s :hover{
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+}
+
+.header {
+    background-image: url(http://sod-a.rsc-cdn.org/www.rsc.org/periodic-table/content/Images/Elements/Manganese-L.jpg?6.2.0.0);
+    background-position: center;
+  }
+  
+.header {
+    background-image: url(https://media1.tenor.com/images/255561ae03fe8689969870a94a5f88a2/tenor.gif?itemid=9677657), url(https://i.redd.it/zdtr21k9ymm11.gif);
+    background-size: cover, 5% 5%;
+    background-position: center;
+    background-blend-mode: overlay;
+  }
+
+  .gnome {
+      background-image: url(https://thumbs.gfycat.com/SaneDisgustingAtlanticridleyturtle-max-1mb.gif);
+      background-attachment: fixed;
+      background-position: sticky;
+
+      color: rgba(0,0,0,0);
+  }
